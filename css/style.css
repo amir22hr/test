@@ -1,0 +1,401 @@
+@import url('all.min.css');
+/* font */
+@font-face{
+    font-family: 'Vazir';
+    src: url(../fonts/vazir.eot)  format('eot'),
+         url(../fonts/vazir.woff2) format('woff2'),
+         url(../fonts/vazir.woff) format('woff'),
+         url(../fonts/vazir.ttf) format('ttf');
+}
+/* font */
+
+body{
+    font-family: Vazir;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+}
+
+ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1300px;
+    height: 100%;
+    margin: auto;
+}
+
+.overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+input{
+    font-family: 'Vazir';
+}
+
+/* end main - start next */
+
+header{
+    background-image: url(../images/bakcground-header.jpg);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+header nav{
+    background-color: rgba(0, 0, 0, .7);
+    width: 100%;
+    height: 80px;
+}
+
+header nav ul{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    line-height: 4;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: ease-out .2s;
+}
+
+header nav ul li a:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    box-shadow: 3px 3px #888888;
+}
+
+header nav .banner{
+    width: 50%;
+    height: 100%;
+    float: right;
+    text-align: left;
+}
+
+header nav .banner img{
+    width: 80px;
+    margin-top: 8px;
+}
+
+header .header-desc{
+    color: #ffffff;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+header .header-desc h1{
+    font-size: 50px;
+}
+
+header .header-desc p{
+    font-size: 25px;
+}
+
+/* main */
+
+/* story */
+
+#out-story{
+    width: 100%;
+    height: 450px;
+    padding: 100px 0;
+}
+
+#out-story .story-desc{
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+#out-story .story-desc h1{
+    font-size: 30px;
+    margin-top: 110px;
+}
+
+#out-story .story-desc p{
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 30px;
+    width: 570px;
+    margin: auto;
+}
+
+#out-story .story-img{
+    width: 50%;
+    float: right;
+}
+
+#out-story .story-img img{
+    width: 100%;
+}
+
+/* sweet */
+
+#sweet{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background-image: url(../images/backtwo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+
+#sweet .sweet-desc{
+    text-align: center;
+    color: #fff;
+    margin-top: 130px;
+}
+
+#sweet .sweet-desc h1{
+    font-size: 45px;
+}
+
+#sweet .sweet-desc p{
+    font-size: 20px;
+    width: 800px;
+    margin: auto;
+}
+
+/* menu */
+
+#menu{
+    width: 100%;
+    height: 530px;
+    padding: 100px 0;
+}
+
+#menu .menu-desc{
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+#menu .menu-desc h1{
+    font-size: 35px;
+    margin-top: 105px;
+}
+
+#menu .menu-desc p{
+    font-size: 21px;
+    line-height: 30px;
+    width: 599px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+#menu .menu-desc a{
+    font-size: 19px;
+    text-decoration: none;
+    color: #000;
+    border-bottom: 2px solid #b61111;
+}
+
+#menu .menu-img{
+    width: 50%;
+    float: right;
+}
+
+#menu .menu-img ul{
+    width: 100%;
+    list-style: none;
+}
+#menu .menu-img li{
+    width: 50%;
+    float: right;
+    text-align: left;
+}
+
+#menu .menu-img img{
+    width: 95%;
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+/* hot */
+.hot{
+    width: 100%;
+    background-image: url(../images/hot.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    padding: 100px 0;
+    height: 300px;
+}
+
+.hot .hot-title{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 130px 0;
+}
+
+.hot .hot-title h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.hot .hot-title p{
+    font-size: 25px;
+}
+
+/* delight */
+
+#delight{
+    padding: 100px 0;
+    width: 100%;
+    overflow: auto;
+}
+
+#delight .delight{
+    width: 100%;
+}
+
+#delight .delight .delight-contect{
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+#delight .delight .delight-contect h1{
+    font-size: 40px ;
+    margin-top: 30px;
+}
+
+#delight .delight .delight-contect p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#delight .delight .delight-img{
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+#delight .delight .delight-img img{
+    width: 220px;
+    height: 350px;
+    float: left;
+}
+
+#delight .delight .delight-img .img-left{
+    margin-right: 20px;
+}
+
+
+/* footer */
+
+#footer{
+    width: 100%;
+    background-color: #141414;
+    overflow: auto;
+}
+
+#footer .footer{
+    width: 100%;
+}
+
+#footer .footer .about-footer{
+    color: #fff;
+    text-align: center;
+}
+
+#footer .footer .about-footer h2{
+    padding-top: 35px;
+}
+
+#footer .footer .about-footer p{
+    width: 800px;
+    margin: auto;
+    padding-top: 10px;
+}
+
+#footer .footer .contact-us{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+#footer .footer .contact-us .news-leeter{
+    width: 50%;
+    float: right;
+}
+
+#footer .footer .contact-us .news-leeter h2{
+    color: #fff;
+}
+
+#footer .footer .contact-us .news-leeter input{
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    width: 230px;
+    margin-bottom: 30px;
+}
+
+#footer .footer .contact-us .news-leeter input:focus{
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    width: 230px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+#footer .footer .contact-us .social{
+    width: 50%;
+    float: right;
+}
+
+#footer .footer .contact-us .social h2{
+    color: #fff;
+}
+
+#footer .footer .contact-us .social ul{
+    width: 100%;
+}
+
+#footer .footer .contact-us .social ul li{
+    display: inline-block;
+}
+
+#footer .footer .contact-us .social ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 5px;
+}
+
+#footer .footer .contact-us .social ul li a svg{
+    font-size: 30px;
+}
+
+#footer .copy-right{
+    overflow: auto;
+    width: 100%;
+    background-color: #333;
+    height: 150px;
+    padding-top: 10px;
+    color: #fff;
+    text-align: center;
+}
